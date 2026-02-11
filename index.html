@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="m-10">
+
+  <!-- nav bar -->
+ <div class="flex justify-between">
+  
+    <div class="flex gap-[30px] ">
+   <div>
+    <img src="./images/logo.svg" alt=" logo">
+   </div>
+   <div class="hidden md:flex md:gap-7">
+    <a href="#">Features</a>
+    <a href="#">Company</a>
+    <a href="#">Careers</a>
+    <a href="#">About</a>
+   </div>
+   </div>
+
+   <div>
+     <div class="block md:hidden">
+    <img src="./images/icon-menu.svg" alt="menu">
+   </div>
+
+   <div class=" hidden md:flex md:gap-10 md:items-center">
+    <a href="#">Login</a>
+    <button class="py-2 px-6 text border rounded-[12px]">Register</button>
+   </div>
+   </div>
+
+
+ </div>
+   <!-- main  -->
+    
+    <div>
+   <div class="mt-10 block md:hidden">
+    <img src="./images/image-hero-mobile.png" alt="">
+   </div>
+   <div class=" flex flex-row-reverse items-center justify-center gap-10">
+   <div class="hidden md:block w-[600px] mr-15 mt-10">
+    <img  class="max-w-[500px] ml-30" src="./images/image-hero-desktop.png" alt="">
+   </div>
+   
+
+   <div class="text-center mt-7 md:text-start md:mt-35 ">
+    
+    <h1 class="text-3xl font-bold md:text-8xl md:w-[590px]">Make remote work</h1>
+    <p class="font-sans-serif text-[hsl(0,0%,41%)] text-lg mt-3 md:w-[390px]">Get your team in sync, no matter your location. Streamline processes, 
+  create team rituals, and watch productivity soar.</p>
+   <div class="m-17 p-3 w-40 bg-black flex  mt-7 rounded-[15px] text-center  items-center justify-center md:m-0 md:mt-15">
+   <button class="text-xl text-white font-bold font-sans-serif text-center">Learn more</button>
+   </div>
+   </div>
+
+   
+   </div>
+
+   </div >
+   <div class="flex gap-5 md:text-start md:ml-17">
+
+    <div>
+      <img src="./images/client-databiz.svg" alt="">
+    </div>
+
+    <div>
+      <img src="./images/client-audiophile.svg" alt="">
+    </div>
+
+    <div>
+      <img src="./images/client-meet.svg" alt="">
+    </div>
+
+    <div>
+      <img src="./images/client-maker.svg" alt="">
+    </div>
+   </div>
+
+  <!-- Features
+  Company
+  Careers
+  About
+
+  Login
+  Register
+
+  Make remote work
+
+  Get your team in sync, no matter your location. Streamline processes, 
+  create team rituals, and watch productivity soar.
+
+  Learn more
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
