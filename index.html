@@ -8,11 +8,6 @@
   
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -28,10 +23,10 @@
     <img src="./images/logo.svg" alt=" logo">
    </div>
    <div class="hidden md:flex md:gap-7">
-    <a href="#">Features</a>
-    <a href="#">Company</a>
-    <a href="#">Careers</a>
-    <a href="#">About</a>
+    <a class="text-[hsl(0,0%,41%)] hover:cursor-pointer hover:text-[hsl(0,0%,8%)]" href="#">Features</a>
+    <a class="text-[hsl(0,0%,41%)] hover:cursor-pointer hover:text-[hsl(0,0%,8%)]" href="#">Company</a>
+    <a class="text-[hsl(0,0%,41%)] hover:cursor-pointer hover:text-[hsl(0,0%,8%)]" href="#">Careers</a>
+    <a class="text-[hsl(0,0%,41%)] hover:cursor-pointer hover:text-[hsl(0,0%,8%)]" href="#">About</a>
    </div>
    </div>
 
@@ -40,9 +35,9 @@
     <img src="./images/icon-menu.svg" alt="menu">
    </div>
 
-   <div class=" hidden md:flex md:gap-10 md:items-center">
-    <a href="#">Login</a>
-    <button class="py-2 px-6 text border rounded-[12px]">Register</button>
+   <div class=" hidden md:flex md:gap-10 md:items-center text-[hsl(0,0%,41%)]">
+    <a class="hover:cursor-pointer hover:text-[hsl(0,0%,8%)]" href="#">Login</a>
+    <button class="py-2 px-6 text border rounded-[12px] hover:cursor-pointer hover:text-[hsl(0,0%,8%)]">Register</button>
    </div>
    </div>
 
@@ -50,7 +45,7 @@
  </div>
    <!-- main  -->
     
-    <div>
+    <div class="container mx-auto w-11/12">
    <div class="mt-10 block md:hidden">
     <img src="./images/image-hero-mobile.png" alt="">
    </div>
@@ -60,13 +55,13 @@
    </div>
    
 
-   <div class="text-center mt-7 md:text-start md:mt-35 ">
+   <div class="text-center mt-7 md:text-start md:mt-10 ">
     
     <h1 class="text-3xl font-bold md:text-8xl md:w-[590px]">Make remote work</h1>
     <p class="font-sans-serif text-[hsl(0,0%,41%)] text-lg mt-3 md:w-[390px]">Get your team in sync, no matter your location. Streamline processes, 
   create team rituals, and watch productivity soar.</p>
-   <div class="m-17 p-3 w-40 bg-black flex  mt-7 rounded-[15px] text-center  items-center justify-center md:m-0 md:mt-15">
-   <button class="text-xl text-white font-bold font-sans-serif text-center">Learn more</button>
+   <div class="m-17 p-3 w-40 bg-black flex  mt-7 rounded-[15px] text-center  items-center justify-center md:m-0 md:mt-15 hover:cursor-pointer hover:bg-[hsl(0,0%,98%)]  hover:font-bold hover:border">
+   <button class="text-xl text-white font-bold font-sans-serif text-center hover:text-black">Learn more</button>
    </div>
    </div>
 
